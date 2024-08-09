@@ -1,13 +1,12 @@
-/* Global Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
     color: #000000;
 }
 
-/* Header Styles */
+
 header {
     background-color: #75e2e6;
     padding: 20px;
@@ -32,12 +31,19 @@ header {
     font-weight: bold;
 }
 
-/* Hero Section Styles */
+
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background-color: #048eaa;
     color: #ffffff;
+    background-image: url("assets/dog-party-assets/park.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0,0.7);
+    
 }
 
 .hero h1 {
@@ -47,6 +53,8 @@ header {
 .hero img {
     border-radius: 50%;
     margin: 20px 0;
+    height: 200px;
+    width: 200px;
 }
 
 .hero form {
@@ -56,12 +64,30 @@ header {
     gap: 10px;
 }
 
-/* Info Section Styles */
+.hero label {
+    margin-left: -415px;
+    font-size: 25px;
+}
+
+.hero button {
+    border: none;
+    background-color: #75e2e6;
+    height: 50px;
+    width: 25%;
+    font-size: 25px;
+}
+
+.hero input {
+    height: 45px;
+    width: 24.75%;
+}
+
+
 .info {
     display: flex;
     justify-content: space-evenly;
     padding: 50px 20px;
-    background-color: #f0f0f0;
+    background-color: white;
 }
 
 .dog-info {
@@ -70,8 +96,8 @@ header {
 
 .dog-info img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .dog-info h2 {
@@ -80,6 +106,7 @@ header {
 }
 
 .dog-info p {
+    font-weight: bold;
     font-size: 1em;
     margin: 10px 0;
 }
@@ -90,18 +117,20 @@ header {
     color: #ffffff;
     border: none;
     cursor: pointer;
+    width: 100%;
+    font-size: 25px;
 }
 
-/* Footer Styles */
+
 footer {
-    background-color: #75e2e6;
+    background-color: #048eaa;
     text-align: center;
     padding: 20px 0;
     color: #ffffff;
 }
 
 footer img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 0 10px;
 }

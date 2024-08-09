@@ -1,6 +1,6 @@
 var form = document.querySelector(".hero.form");
 var input = document.querySelector("#dog-name");
-var headerText = documetn.querySelector(".hero h1 strong");
+var headerText = document.querySelector(".hero h1 strong");
 
 form.addEventListener("submit", displayDogName);
 
